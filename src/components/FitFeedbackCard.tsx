@@ -136,7 +136,7 @@ export function FitFeedbackCard() {
               <span>Eco Impact Stat</span>
             </div>
             <p className="text-xs text-emerald-200 leading-relaxed">
-              &quot;By ensuring a perfect fit with FitPrint & SnapMeasure AI, you saved <strong className="text-emerald-300 font-bold">~{ecoImpact.co2SavedKg}kg of CO2</strong> and prevented potential shipping return logistics!&quot;
+              &quot;This illustrative result shows how a clearer fit decision could support a more useful sustainability story. Actual impact should be measured from your store&apos;s own outcomes.&quot;
             </p>
           </div>
         </div>
