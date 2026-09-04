@@ -9,9 +9,9 @@ import { ScannerModal } from '@/components/ScannerModal';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FitPrint - AI Body Measurement & Virtual Fit Comparison Engine',
-  description: 'Eliminate fashion returns and material waste. Powered by the SnapMeasure API for 3D body scans, digital body profile tracking, and visual fit heatmaps.',
-  keywords: ['SnapMeasure', 'FitPrint', 'Virtual Fitting Room', 'Eco Fashion', 'Fashion Tech', 'Body Measurements', 'Hackathon'],
+  title: 'FitPrint | Explainable Fit Intelligence for Apparel Brands',
+  description: 'Help online apparel shoppers choose the right size with clearer, zone-level fit guidance. Start a focused FitPrint pilot for one product category.',
+  keywords: ['FitPrint', 'Fit Intelligence', 'Apparel Returns', 'Size Recommendation', 'Fashion Technology', 'Shopify Apparel'],
 };
 
 export default function RootLayout({
