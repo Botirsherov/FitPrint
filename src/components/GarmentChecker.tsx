@@ -71,13 +71,13 @@ export function GarmentChecker() {
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-950/60 px-3.5 py-1.5 text-xs font-semibold text-emerald-300">
             <Shirt className="w-4 h-4 text-emerald-400" />
-            <span>Interactive fit demo</span>
+            <span>Virtual Fit Engine</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            See how zone-level fit guidance can work
+            Select a Garment & Check Your Fit
           </h2>
           <p className="text-sm text-slate-300">
-            Explore the interactive example below. It uses sample product data; a merchant pilot would begin with your own catalog and size information.
+            Paste any clothing link or select from our sample wardrobe to compare your 3D body profile against real sizing charts.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export function GarmentChecker() {
                 type="url"
                 value={pastedUrl}
                 onChange={(e) => setPastedUrl(e.target.value)}
-                placeholder="Try a sample product URL (e.g. levi.com or everlane.com)"
+                placeholder="Paste product URL (e.g. levi.com, zara.com, everlane.com...)"
                 className="w-full rounded-xl border border-slate-700 bg-slate-950 pl-10 pr-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 focus:border-emerald-500 focus:outline-none font-mono"
               />
             </div>
@@ -124,7 +124,7 @@ export function GarmentChecker() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider">
-              Or explore a sample product:
+              Or Choose Sample Wardrobe Item:
             </h3>
             <button
               onClick={() => setIsSizeChartOpen(true)}
