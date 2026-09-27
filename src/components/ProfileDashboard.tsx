@@ -42,13 +42,13 @@ export function ProfileDashboard() {
           <div>
             <div className="flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-1">
               <Ruler className="w-4 h-4" />
-              <span>Example shopper profile</span>
+              <span>Digital Body Twin</span>
             </div>
             <h2 className="text-3xl font-extrabold text-white tracking-tight">
-              FitProfile example
+              My FitProfile Dashboard
             </h2>
             <p className="text-slate-400 text-sm mt-1 max-w-xl">
-              See how a shopper profile can inform fit recommendations. A merchant pilot would define the data and consent flow for its storefront.
+              Extracted via SnapMeasure AI. Fine-tune your proportions below to calculate real-time fit compatibility across top apparel brands.
             </p>
           </div>
 
