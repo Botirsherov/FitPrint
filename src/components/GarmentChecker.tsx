@@ -71,13 +71,13 @@ export function GarmentChecker() {
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-950/60 px-3.5 py-1.5 text-xs font-semibold text-emerald-300">
             <Shirt className="w-4 h-4 text-emerald-400" />
-            <span>Virtual Fit Engine</span>
+            <span>Interactive fit demo</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Select a Garment & Check Your Fit
+            See how zone-level fit guidance can work
           </h2>
           <p className="text-sm text-slate-300">
-            Paste any clothing link or select from our sample wardrobe to compare your 3D body profile against real sizing charts.
+            Explore the interactive example below. It uses sample product data; a merchant pilot would begin with your own catalog and size information.
           </p>
         </div>
 
